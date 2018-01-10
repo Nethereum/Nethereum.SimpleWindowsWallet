@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nethereum.SimpleWindowsWallet", "Nethereum.SimpleWindowsWallet\Nethereum.SimpleWindowsWallet.csproj", "{68E28CD7-7924-41F4-ACCD-89F5C3E7EDDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68E28CD7-7924-41F4-ACCD-89F5C3E7EDDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68E28CD7-7924-41F4-ACCD-89F5C3E7EDDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68E28CD7-7924-41F4-ACCD-89F5C3E7EDDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68E28CD7-7924-41F4-ACCD-89F5C3E7EDDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B5E7563-90C6-4728-8841-E50AB3E5D090}
+	EndGlobalSection
+EndGlobal
