@@ -5,8 +5,8 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using Nethereum.SimpleWindowsWallet.StandardToken.ViewModels;
-using Nethereum.SimpleWindowsWallet.ViewModels;
+using Nethereum.StandardToken.UI.ViewModels;
+using Nethereum.UI.ViewModels;
 using ReactiveUI;
 
 namespace Nethereum.SimpleWindowsWallet
@@ -39,10 +39,10 @@ namespace Nethereum.SimpleWindowsWallet
             hdWalletAccountLoaderUserControl1.ViewModel = _hdWalletAccountLoaderViewModel;
 
             _standardTokenBalanceOfViewModel = new StandardTokenBalanceOfViewModel();
-            standardTokenBalanceOfUserControl1.ViewModel = _standardTokenBalanceOfViewModel;
+             standardTokenBalanceOfUserControl1.ViewModel = _standardTokenBalanceOfViewModel;
 
             _standardTokenContractAddressViewModel = new StandardTokenContractAddressViewModel();
-            standardTokenContractAddressUserControl1.ViewModel = _standardTokenContractAddressViewModel;
+             standardTokenContractAddressUserControl1.ViewModel = _standardTokenContractAddressViewModel;
 
             _standardTokenTransferViewModel = new StandardTokenTransferViewModel();
             standardTokenTransferUserControl1.ViewModel = _standardTokenTransferViewModel;

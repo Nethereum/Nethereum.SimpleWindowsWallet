@@ -1,4 +1,6 @@
-﻿namespace Nethereum.SimpleWindowsWallet.Controls
+﻿using Nethereum.UI.ViewModels;
+
+namespace Nethereum.SimpleWindowsWallet.Controls
 {
     partial class HDWalletAccountLoaderUserControl
     {
@@ -65,7 +67,7 @@
             // 
             // hdWalletAccountViewModelBindingSource
             // 
-            this.hdWalletAccountViewModelBindingSource.DataSource = typeof(Nethereum.SimpleWindowsWallet.ViewModels.HdWalletAccountViewModel);
+            this.hdWalletAccountViewModelBindingSource.DataSource = typeof(HdWalletAccountViewModel);
             // 
             // btnLoadHdAccounts
             // 

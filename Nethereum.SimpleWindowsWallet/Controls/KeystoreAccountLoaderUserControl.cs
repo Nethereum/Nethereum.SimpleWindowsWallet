@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Nethereum.SimpleWindowsWallet.ViewModels;
+using Nethereum.UI.ViewModels;
 using ReactiveUI;
 
 namespace Nethereum.SimpleWindowsWallet

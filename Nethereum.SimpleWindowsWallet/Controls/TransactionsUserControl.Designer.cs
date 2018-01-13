@@ -1,4 +1,6 @@
-﻿namespace Nethereum.SimpleWindowsWallet.Controls
+﻿using Nethereum.UI.ViewModels;
+
+namespace Nethereum.SimpleWindowsWallet.Controls
 {
     partial class TransactionsUserControl
     {
@@ -88,7 +90,7 @@
             // 
             // transactionViewModelBindingSource
             // 
-            this.transactionViewModelBindingSource.DataSource = typeof(Nethereum.SimpleWindowsWallet.ViewModels.TransactionViewModel);
+            this.transactionViewModelBindingSource.DataSource = typeof(TransactionViewModel);
             // 
             // blockHashDataGridViewTextBoxColumn
             // 
