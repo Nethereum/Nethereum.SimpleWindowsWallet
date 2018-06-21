@@ -5,6 +5,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using Nethereum.RPC.Eth.DTOs;
 using Nethereum.StandardToken.UI.ViewModels;
 using Nethereum.UI.ViewModels;
 using ReactiveUI;
@@ -57,6 +58,9 @@ namespace Nethereum.SimpleWindowsWallet
             this.BindCommand(ViewModel, x => x.RefreshBalanceCommand, x => x.btnRefreshBalance);
 
             ViewModel.Url = "https://mainnet.infura.io";
+
+                
+           
         }
 
         object IViewFor.ViewModel
