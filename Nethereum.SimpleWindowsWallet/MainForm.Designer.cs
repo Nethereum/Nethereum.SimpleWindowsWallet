@@ -155,7 +155,7 @@
             // 
             this.cmbUrl.FormattingEnabled = true;
             this.cmbUrl.Items.AddRange(new object[] {
-            "https://mainnet.infura.io",
+            "https://mainnet.infura.io/v3/7238211010344719ad14a89db874158c",
             "http://localhost:8545"});
             this.cmbUrl.Location = new System.Drawing.Point(127, 92);
             this.cmbUrl.Name = "cmbUrl";
