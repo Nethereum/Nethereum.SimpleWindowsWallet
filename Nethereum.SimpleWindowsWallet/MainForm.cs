@@ -57,7 +57,8 @@ namespace Nethereum.SimpleWindowsWallet
             this.Bind(ViewModel, x => x.Url, x => x.cmbUrl.Text);
             this.BindCommand(ViewModel, x => x.RefreshBalanceCommand, x => x.btnRefreshBalance);
 
-            ViewModel.Url = "https://mainnet.infura.io";
+            // Note: in this sample, a special INFURA API key is used: `7238211010344719ad14a89db874158c`. If you wish to use this sample in your own project you’ll need to [sign up on INFURA](https://infura.io/register) and use your own key.
+            ViewModel.Url = "https://mainnet.infura.io/v3/7238211010344719ad14a89db874158c";
 
                 
            
